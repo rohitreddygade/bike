@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <?php require_once("../../includes/db/connection.php"); 
-
-
 if(isset($_SESSION['uid'])){
 $uid=$_SESSION['uid'];
 $uname=$_SESSION['name'];

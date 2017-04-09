@@ -65,7 +65,7 @@ if(isset($_POST['signIN'])){
 
     $_SESSION['name']=$rw1['name'];
     $_SESSION['uid']=$_POST['userid'];
-    echo '<script type="text/javascript"> window.location.href = "mr/docs/UI/uorder.php";</script>';
+    echo '<script type="text/javascript"> window.location.href = "/mr/docs/UI/uorder.php";</script>';
     
    }elseif($_POST['userid']=="" or $_POST['pwd']==""){
     

@@ -449,6 +449,7 @@ if(isset($_POST['save'])){
     $query = "Update user set name='".$_POST['name']."',area='".$_POST['area']."',address='".$_POST['addr']."',email='".$_POST['email']."'  where mobile='".$uid."'";
     $query_result = mysql_query($query,$con)
     or die("Invalid query: " . mysql_error());
+    header(':edit_profile.php');
 }
 ?>
 
